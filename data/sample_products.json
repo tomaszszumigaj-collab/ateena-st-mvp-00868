@@ -1,0 +1,585 @@
+[
+  {
+    "product_id": "demo_wrap_rose",
+    "brand": "Ateena Demo",
+    "name": "Rose Wrap Midi",
+    "product_url": "https://example.com/demo/rose-wrap-midi",
+    "image_path": "assets/wrap_rose.png",
+    "image_url": null,
+    "dress_type": "wrap",
+    "fit_type": "regular",
+    "stretch_level": "medium",
+    "length_type": "midi",
+    "style_effect": "podkresla_talie",
+    "tight_areas": [
+      "waist"
+    ],
+    "runs_small": 0.1,
+    "runs_large": 0.0,
+    "true_to_size": 0.9,
+    "review_texts": [
+      "Talia wypada zgodnie z rozmiarem, ale jeśli jesteś pomiędzy rozmiarami i nie lubisz dopasowania, weź większą.",
+      "Ładnie układa się na biodrach i dobrze zaznacza talię.",
+      "Materiał ma lekki stretch i nie krępuje ruchów."
+    ],
+    "size_chart": {
+      "XS": {
+        "bust": [
+          80,
+          84
+        ],
+        "waist": [
+          62,
+          66
+        ],
+        "hips": [
+          86,
+          90
+        ]
+      },
+      "S": {
+        "bust": [
+          84,
+          88
+        ],
+        "waist": [
+          66,
+          70
+        ],
+        "hips": [
+          90,
+          94
+        ]
+      },
+      "M": {
+        "bust": [
+          88,
+          92
+        ],
+        "waist": [
+          70,
+          74
+        ],
+        "hips": [
+          94,
+          98
+        ]
+      },
+      "L": {
+        "bust": [
+          92,
+          97
+        ],
+        "waist": [
+          74,
+          79
+        ],
+        "hips": [
+          98,
+          103
+        ]
+      },
+      "XL": {
+        "bust": [
+          97,
+          103
+        ],
+        "waist": [
+          79,
+          85
+        ],
+        "hips": [
+          103,
+          109
+        ]
+      }
+    }
+  },
+  {
+    "product_id": "demo_aline_navy",
+    "brand": "Ateena Demo",
+    "name": "Navy A-Line Day Dress",
+    "product_url": "https://example.com/demo/navy-a-line-day-dress",
+    "image_path": "assets/aline_navy.png",
+    "image_url": null,
+    "dress_type": "a_line",
+    "fit_type": "regular",
+    "stretch_level": "low",
+    "length_type": "midi",
+    "style_effect": "maskuje_biodra",
+    "tight_areas": [
+      "bust",
+      "waist"
+    ],
+    "runs_small": 0.0,
+    "runs_large": 0.1,
+    "true_to_size": 0.9,
+    "review_texts": [
+      "Fason jest bardzo wybaczający na biodrach.",
+      "Góra ma trochę bardziej uporządkowaną konstrukcję, więc warto sprawdzić biust.",
+      "Długość midi, materiał prawie bez stretchu."
+    ],
+    "size_chart": {
+      "XS": {
+        "bust": [
+          79,
+          83
+        ],
+        "waist": [
+          61,
+          65
+        ],
+        "hips": [
+          87,
+          92
+        ]
+      },
+      "S": {
+        "bust": [
+          83,
+          87
+        ],
+        "waist": [
+          65,
+          69
+        ],
+        "hips": [
+          92,
+          97
+        ]
+      },
+      "M": {
+        "bust": [
+          87,
+          91
+        ],
+        "waist": [
+          69,
+          73
+        ],
+        "hips": [
+          97,
+          102
+        ]
+      },
+      "L": {
+        "bust": [
+          91,
+          96
+        ],
+        "waist": [
+          73,
+          78
+        ],
+        "hips": [
+          102,
+          107
+        ]
+      },
+      "XL": {
+        "bust": [
+          96,
+          102
+        ],
+        "waist": [
+          78,
+          84
+        ],
+        "hips": [
+          107,
+          113
+        ]
+      }
+    }
+  },
+  {
+    "product_id": "demo_bodycon_black",
+    "brand": "Ateena Demo",
+    "name": "Black Sculpt Bodycon",
+    "product_url": "https://example.com/demo/black-sculpt-bodycon",
+    "image_path": "assets/bodycon_black.png",
+    "image_url": null,
+    "dress_type": "bodycon",
+    "fit_type": "slim",
+    "stretch_level": "low",
+    "length_type": "midi",
+    "style_effect": "podkresla_talie",
+    "tight_areas": [
+      "bust",
+      "waist",
+      "hips"
+    ],
+    "runs_small": 0.6,
+    "runs_large": 0.0,
+    "true_to_size": 0.4,
+    "review_texts": [
+      "Rozmiarówka jest zaniżona, szczególnie na biodrach.",
+      "Jeśli masz pełniejsze kształty, rozważ rozmiar większy.",
+      "Materiał jest raczej sztywny i mocno opina talię."
+    ],
+    "size_chart": {
+      "XS": {
+        "bust": [
+          78,
+          82
+        ],
+        "waist": [
+          59,
+          63
+        ],
+        "hips": [
+          84,
+          88
+        ]
+      },
+      "S": {
+        "bust": [
+          82,
+          86
+        ],
+        "waist": [
+          63,
+          67
+        ],
+        "hips": [
+          88,
+          92
+        ]
+      },
+      "M": {
+        "bust": [
+          86,
+          90
+        ],
+        "waist": [
+          67,
+          71
+        ],
+        "hips": [
+          92,
+          96
+        ]
+      },
+      "L": {
+        "bust": [
+          90,
+          95
+        ],
+        "waist": [
+          71,
+          76
+        ],
+        "hips": [
+          96,
+          101
+        ]
+      },
+      "XL": {
+        "bust": [
+          95,
+          101
+        ],
+        "waist": [
+          76,
+          82
+        ],
+        "hips": [
+          101,
+          107
+        ]
+      }
+    }
+  },
+  {
+    "product_id": "demo_shift_green",
+    "brand": "Ateena Demo",
+    "name": "Green Shift Dress",
+    "product_url": "https://example.com/demo/green-shift-dress",
+    "image_path": "assets/shift_green.png",
+    "image_url": null,
+    "dress_type": "shift",
+    "fit_type": "loose",
+    "stretch_level": "medium",
+    "length_type": "mini",
+    "style_effect": "neutralny_fason",
+    "tight_areas": [
+      "shoulders",
+      "length"
+    ],
+    "runs_small": 0.0,
+    "runs_large": 0.2,
+    "true_to_size": 0.8,
+    "review_texts": [
+      "Luźny fason, nie obciska bioder.",
+      "W ramionach jest w porządku, ale model jest dość krótki.",
+      "Bardziej codzienna niż dopasowana sukienka."
+    ],
+    "size_chart": {
+      "XS": {
+        "bust": [
+          82,
+          87
+        ],
+        "waist": [
+          68,
+          73
+        ],
+        "hips": [
+          89,
+          95
+        ]
+      },
+      "S": {
+        "bust": [
+          87,
+          92
+        ],
+        "waist": [
+          73,
+          78
+        ],
+        "hips": [
+          95,
+          101
+        ]
+      },
+      "M": {
+        "bust": [
+          92,
+          97
+        ],
+        "waist": [
+          78,
+          83
+        ],
+        "hips": [
+          101,
+          107
+        ]
+      },
+      "L": {
+        "bust": [
+          97,
+          103
+        ],
+        "waist": [
+          83,
+          89
+        ],
+        "hips": [
+          107,
+          113
+        ]
+      },
+      "XL": {
+        "bust": [
+          103,
+          109
+        ],
+        "waist": [
+          89,
+          95
+        ],
+        "hips": [
+          113,
+          119
+        ]
+      }
+    }
+  },
+  {
+    "product_id": "demo_fitflare_red",
+    "brand": "Ateena Demo",
+    "name": "Red Fit & Flare",
+    "product_url": "https://example.com/demo/red-fit-flare",
+    "image_path": "assets/fitflare_red.png",
+    "image_url": null,
+    "dress_type": "fit_and_flare",
+    "fit_type": "regular",
+    "stretch_level": "medium",
+    "length_type": "midi",
+    "style_effect": "rownowazy_sylwetke",
+    "tight_areas": [
+      "bust",
+      "waist"
+    ],
+    "runs_small": 0.1,
+    "runs_large": 0.0,
+    "true_to_size": 0.9,
+    "review_texts": [
+      "Bardzo ładnie buduje talię i zostawia luz na biodrach.",
+      "Góra jest bardziej dopasowana niż dół.",
+      "Dobra opcja, jeśli chcesz zbalansować proporcje."
+    ],
+    "size_chart": {
+      "XS": {
+        "bust": [
+          80,
+          84
+        ],
+        "waist": [
+          61,
+          65
+        ],
+        "hips": [
+          94,
+          100
+        ]
+      },
+      "S": {
+        "bust": [
+          84,
+          88
+        ],
+        "waist": [
+          65,
+          69
+        ],
+        "hips": [
+          100,
+          106
+        ]
+      },
+      "M": {
+        "bust": [
+          88,
+          92
+        ],
+        "waist": [
+          69,
+          73
+        ],
+        "hips": [
+          106,
+          112
+        ]
+      },
+      "L": {
+        "bust": [
+          92,
+          97
+        ],
+        "waist": [
+          73,
+          78
+        ],
+        "hips": [
+          112,
+          118
+        ]
+      },
+      "XL": {
+        "bust": [
+          97,
+          103
+        ],
+        "waist": [
+          78,
+          84
+        ],
+        "hips": [
+          118,
+          124
+        ]
+      }
+    }
+  },
+  {
+    "product_id": "demo_slip_beige",
+    "brand": "Ateena Demo",
+    "name": "Beige Slip Dress",
+    "product_url": "https://example.com/demo/beige-slip-dress",
+    "image_path": "assets/slip_beige.png",
+    "image_url": null,
+    "dress_type": "slip",
+    "fit_type": "slim",
+    "stretch_level": "low",
+    "length_type": "maxi",
+    "style_effect": "wydluza_sylwetke",
+    "tight_areas": [
+      "bust",
+      "hips",
+      "length"
+    ],
+    "runs_small": 0.2,
+    "runs_large": 0.0,
+    "true_to_size": 0.8,
+    "review_texts": [
+      "Piękna linia, ale materiał prawie się nie poddaje.",
+      "Na biuście i biodrach trzeba uważać z rozmiarem.",
+      "Dla niższych osób długość może wymagać skrócenia."
+    ],
+    "size_chart": {
+      "XS": {
+        "bust": [
+          78,
+          82
+        ],
+        "waist": [
+          62,
+          66
+        ],
+        "hips": [
+          86,
+          90
+        ]
+      },
+      "S": {
+        "bust": [
+          82,
+          86
+        ],
+        "waist": [
+          66,
+          70
+        ],
+        "hips": [
+          90,
+          94
+        ]
+      },
+      "M": {
+        "bust": [
+          86,
+          90
+        ],
+        "waist": [
+          70,
+          74
+        ],
+        "hips": [
+          94,
+          98
+        ]
+      },
+      "L": {
+        "bust": [
+          90,
+          95
+        ],
+        "waist": [
+          74,
+          79
+        ],
+        "hips": [
+          98,
+          103
+        ]
+      },
+      "XL": {
+        "bust": [
+          95,
+          101
+        ],
+        "waist": [
+          79,
+          85
+        ],
+        "hips": [
+          103,
+          109
+        ]
+      }
+    }
+  }
+]

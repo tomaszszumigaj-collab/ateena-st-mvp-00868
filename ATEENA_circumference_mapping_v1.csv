@@ -1,0 +1,16 @@
+﻿Metric_ID,Name_PL,Front_Width,Profile_Depth,Back_Helper,Computation_Model,Confidence_Rules,Fit_Categories,Manual_Fallback
+neck_cm,Obwód szyi,F_NECK_W,P_NECK_D,B kark / axis QA,Ellipse/W+D,low if beard/chin hides neck,"kołnierze, golfy",manual if low
+chest_cm,Obwód klatki,F_CHEST_W,P_CHEST_D,B_UPPERBACK_W,Ellipse/W+D + back sanity,low if loose shirt or arm occlusion,"koszule, T-shirt, marynarki",manual if top fit critical
+waist_cm,Obwód talii,F_WAIST_W,P_WAIST_D,B_WAIST_W,Ellipse/W+D + back sanity,low if shirt folds/abdomen confusion,"spodnie, sukienki, garnitury",manual if low
+abdomen_cm,Obwód brzucha,F_ABDOMEN_W,P_ABDOMEN_D,B waist/hips sanity,Ellipse/W+D,low if posture/loose shirt,produkty dopasowane,confirm if slim/bodycon
+hips_cm,Obwód bioder,F_HIPS_W,P_HIPS_D,B_HIPS_W,Ellipse/W+D + back correction,low if shorts/skirt loose,"spodnie, spódnice, sukienki",manual if bottom garment critical
+left_biceps_cm,Biceps lewy,F_BICEPS_L_W,P_BICEPS_D,none,Ellipse/W+D,low if arm occluded/posed,rękawy,confirm if sleeve tight
+right_biceps_cm,Biceps prawy,F_BICEPS_R_W,P_BICEPS_D,none,Ellipse/W+D,low if arm occluded/posed,rękawy,confirm if sleeve tight
+left_wrist_cm,Nadgarstek lewy,F_WRIST_L_W,P_WRIST_D,none,Ellipse/W+D,low if watch/jewelry,mankiety,manual often easy
+right_wrist_cm,Nadgarstek prawy,F_WRIST_R_W,P_WRIST_D,none,Ellipse/W+D,low if watch/jewelry,mankiety,manual often easy
+left_thigh_cm,Udo lewe,F_THIGH_L_MAX_W,P_THIGH_D,B_THIGH_L_REF,Ellipse/W+D + back sanity,low if hand/shorts cover thigh,"spodnie, legginsy",manual if occluded
+right_thigh_cm,Udo prawe,F_THIGH_R_MAX_W,P_THIGH_D,B_THIGH_R_REF,Ellipse/W+D + back sanity,low if hand/shorts cover thigh,"spodnie, legginsy",manual if occluded
+left_calf_max_cm,Łydka lewa max,F_CALF_L_MAX_W,P_CALF_MAX_D,B_CALF_L_MAX_W,Ellipse/W+D,medium if socks/pose,spodnie slim,manual if boot/sock product
+right_calf_max_cm,Łydka prawa max,F_CALF_R_MAX_W,P_CALF_MAX_D,B_CALF_R_MAX_W,Ellipse/W+D,medium if socks/pose,spodnie slim,manual if boot/sock product
+left_calf_min_cm,Łydka lewa min,F_CALF_L_MIN_W,P_CALF_MIN_D,B_CALF_L_MIN_W,Ellipse/W+D,medium if socks,spodnie tapered,manual if low
+right_calf_min_cm,Łydka prawa min,F_CALF_R_MIN_W,P_CALF_MIN_D,B_CALF_R_MIN_W,Ellipse/W+D,medium if socks,spodnie tapered,manual if low

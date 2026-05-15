@@ -1,0 +1,12 @@
+streamlit>=1.35
+pandas>=2.2
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.2
+numpy==1.26.4; python_version < '3.13'
+numpy>=2,<3; python_version >= '3.13'
+opencv-contrib-python-headless==4.10.0.84
+Pillow>=10.3
+mediapipe==0.10.35; python_version < '3.13'
+pytesseract>=0.3.10
+pillow-heif>=0.16.0

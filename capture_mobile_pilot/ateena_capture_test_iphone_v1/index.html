@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>ATEENA Capture Mobile Studio v3</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>ATEENA — Capture Mobile Studio v3</h1>
+      <p>Test jakości zdjęć FRONT / PROFIL / TYŁ przed właściwą analizą sylwetki.</p>
+    </div>
+    <span class="pill">HTTPS + Safari</span>
+  </header>
+
+  <main class="app">
+    <section class="panel settings">
+      <h2>1. Ustawienia</h2>
+
+      <label>Płeć
+        <select id="gender">
+          <option value="kobieta">Kobieta</option>
+          <option value="mężczyzna">Mężczyzna</option>
+        </select>
+      </label>
+
+      <div class="grid3">
+        <label>Wzrost (cm)
+          <input id="height" type="number" min="145" max="210" value="170" />
+        </label>
+        <label>Waga (kg)
+          <input id="weight" type="number" min="38" max="220" value="65" />
+        </label>
+        <label>Wiek
+          <input id="age" type="number" min="16" max="85" value="30" />
+        </label>
+      </div>
+
+      <label>Kto robi zdjęcie?
+        <select id="captureRole">
+          <option value="druga_osoba">Druga osoba trzyma telefon</option>
+          <option value="telefon_stabilnie">Telefon ustawiony stabilnie + timer</option>
+        </select>
+      </label>
+
+      <label>Jak dopasowane jest ubranie?
+        <select id="clothingFit">
+          <option value="fitted">Obcisłe / dopasowane</option>
+          <option value="regular">Raczej dopasowane</option>
+          <option value="medium">Średnio dopasowane</option>
+          <option value="loose">Luźne</option>
+          <option value="very_loose">Bardzo luźne</option>
+          <option value="unknown">Nie wiem</option>
+        </select>
+      </label>
+
+      <label>Czy masz na sobie bluzę / luźne warstwy?
+        <select id="layers">
+          <option value="nie">Nie</option>
+          <option value="tak">Tak</option>
+        </select>
+      </label>
+
+      <div class="step-switch">
+        <button class="step-btn active" data-step="front">FRONT</button>
+        <button class="step-btn" data-step="profile">PROFIL</button>
+        <button class="step-btn" data-step="back">TYŁ</button>
+        <button class="step-btn" data-step="back">TYŁ</button>
+      </div>
+
+      <div class="hint warning" id="clothingWarning">
+        Luźne ubranie może znacząco obniżyć dokładność pomiaru i spowodować odrzucenie zdjęcia.
+      </div>
+
+      <button id="startCamera" class="primary">2. Uruchom kamerę</button>
+      <button id="stopCamera" class="secondary" disabled>Zatrzymaj kamerę</button>
+
+      <div class="help">
+        <h3>Minimalne warunki ACCEPT</h3>
+        <ul>
+          <li>głowa i stopy w kadrze,</li>
+          <li>pełna sylwetka,</li>
+          <li>pozycja stojąca,</li>
+          <li>front albo pełny profil,</li>
+          <li>ręce lekko odsunięte,</li>
+          <li>telefon / kamera na wysokości bioder.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="panel capture">
+      <div class="guide-wrap">
+        <img id="guideImage" alt="Instrukcja kadru" />
+      </div>
+
+      <div class="video-shell">
+        <video id="video" playsinline autoplay muted></video>
+        <canvas id="overlay"></canvas>
+        <div class="video-status">
+          <span id="overallStatus" class="status status-idle">kamera nieaktywna</span>
+          <span id="orientationBadge" class="badge">orientacja: —</span>
+          <span id="standingBadge" class="badge">pozycja: —</span>
+          <span id="scoreBadge" class="badge">score: —</span>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="captureBtn" class="primary" disabled>Zrób zdjęcie</button>
+        <button id="forceCaptureBtn" class="secondary" disabled>Zrób mimo ostrzeżeń</button>
+      </div>
+
+      <div class="qa">
+        <h3>3. Live quality gate</h3>
+        <div id="checks" class="check-grid"></div>
+        <div id="messages" class="messages"></div>
+      </div>
+
+      <div class="captures">
+        <div class="shot-card">
+          <h3>FRONT</h3>
+          <img id="frontPreview" alt="Front preview" />
+          <pre id="frontMeta">brak</pre>
+        </div>
+        <div class="shot-card">
+          <h3>PROFIL</h3>
+          <img id="profilePreview" alt="Profile preview" />
+          <pre id="profileMeta">brak</pre>
+        </div>
+        <div class="shot-card">
+          <h3>TYŁ</h3>
+          <img id="backPreview" alt="Back preview" />
+          <pre id="backMeta">brak</pre>
+        </div>
+      </div>
+
+      <div class="session-summary" id="sessionSummary">Brak pełnej sesji.</div>
+      <div class="export-box">
+        <button id="exportJson" class="secondary">Eksportuj JSON z sesji</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footnote">
+    <p>To jest prototyp jakości wejścia. Nie diagnozuje medycznie i nie liczy jeszcze finalnych obwodów.</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
